@@ -1,0 +1,89 @@
+.container-icon-status {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#1 {
+    order: 2; /* Menempatkan div 1 di bawah */
+}
+#2 {
+    order: 1; /* Menempatkan div 2 di atas */
+}
+#3 {
+    order: 3; /* Menempatkan div 2 di atas */
+}
+#4 {
+    order: 4; /* Menempatkan div 2 di atas */
+}
+#5 {
+    order: 5; /* Menempatkan div 2 di atas */
+}
+#6 {
+    order: 6; /* Menempatkan div 2 di atas */
+}
+
+.bt-primary {
+    border-top: 4px solid #343a40;
+}
+
+.bt-warning {
+    border-top: 4px solid #fbcf33;
+}
+
+.bt-pink {
+    border-top: 4px solid #cb0c9f;
+}
+
+.bt-info {
+    border-top: 4px solid #17c1e8;
+}
+
+.bs-primary {
+    border-left: 4px solid #343a40;
+}
+
+.centered-content {
+    margin: 0 auto; /* Ini akan menengahkan elemen secara horizontal */
+    display: inline-block; /* Ini akan membuat elemen menjadi inline-block sehingga margin auto berfungsi */
+}
+
+.html5-qrcode-element {
+    padding: 10px 20px;
+    background-image: linear-gradient(310deg, #2152ff, #21d4fd);
+    color: white; /* Warna teks putih */
+    border: none; /* Tanpa border */
+    border-radius: 5px; /* Sudut melengkung */
+    cursor: pointer; /* Kursor berubah saat dihover */
+    font-size: 16px; /* Ukuran teks */
+    transition: background-color 0.3s, transform 0.3s; /* Menambahkan transition untuk transform */
+    margin-bottom: 20px;
+}
+
+.html5-qrcode-element:hover {
+    transform: scale(1.05); /* Memperbesar ukuran saat dihover */
+}
+
+#html5-qrcode-anchor-scan-type-change {
+    display: none;
+}
+
+.img-small {
+    margin-top: 100px;
+    max-width: 340px !important; /* Atur lebar maksimum gambar */
+}
+@media (max-width: 400px) {
+    .img-fluid {
+        max-width: 220px !important;
+    }
+}
+
+#reader__scan_region {
+    height: 437px;
+    width: 300px;
+}
+
+#reader div img {
+    display: none;
+}
+
+
